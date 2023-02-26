@@ -1,0 +1,46 @@
+.box1{
+    height: 50px;
+    width: 150px;
+
+    background-color: rgb(228, 93, 15);
+
+}
+.box2{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(230, 74, 74);
+
+}
+.box1:hover{
+    background-color: orange;
+}
+.box2:hover{
+    background-color: pink;
+}
+.first-con{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.second-con{
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.name{
+    text-align: center;
+    margin: auto;
+    margin-top: 12px;
+}
+
+.box3{
+    height: 2px;
+    width: 150px;
+    background-color:rgb(230, 74, 74) ;
+    border: rgb(230, 74, 74);
+}
+.box3:hover{
+    background-color: pink;
+}
